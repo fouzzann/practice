@@ -98,3 +98,8 @@
 
 
 
+// void main(){
+//   String text = 'Hello world   ';
+//   String trimmedText = text.trim();
+//   print(trimmedText);
+// }
