@@ -103,3 +103,23 @@
 //   String trimmedText = text.trim();
 //   print(trimmedText);
 // }
+
+
+// void main(){
+//   List<int> numbers =[1,2,3,5];
+//   numbers.remove(5);
+//   print(numbers);
+// }
+
+class Person{
+
+String name = 'fouzan';
+int age =56;
+
+}
+
+void main(){
+  var Person2 = Person();
+  print(Person2.name);
+  print(56);
+}
