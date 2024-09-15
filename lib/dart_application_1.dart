@@ -3,7 +3,7 @@
 //   print("hello $name you are $age years old");
 // }
 // void main(){
-//   namedParameter(name: "Fouzan ",age: 4);
+//   namedParameter(name:"Fouzan ",age: 4);
 
 // }
 
@@ -107,19 +107,54 @@
 
 // void main(){
 //   List<int> numbers =[1,2,3,5];
-//   numbers.remove(5);
+//   numbers.removeAt(1);
 //   print(numbers);
 // }
 
-class Person{
+// class Person{
 
-String name = 'fouzan';
-int age =56;
+// String name = 'fouzan';
+// int age =56;
 
-}
+// }
 
-void main(){
-  var Person2 = Person();
-  print(Person2.name);
-  print(56);
-}
+// void main(){
+//   var Person2 = Person();
+//   print(Person2.name);
+//   print(56);
+// }
+
+
+// void main(){
+//   Map<String,dynamic> names ={
+//     'name':'fouzan',
+//     'age' : 67
+//   };
+//   print(names['name']);
+//   print(names['age']);
+// }
+
+// void main(){
+//   int i=10;
+//   bool increment = true;
+
+//   i = increment? i+1:i;
+//   print(i);
+// }
+// void main(){
+//   List<int> numbers1  =[1,2,3,4,5];
+//   List<int> numbers2 =[6,7,8,9,10];
+
+
+//   List<int> compainedLsit= [...numbers1,...numbers2];
+
+//   print(compainedLsit);
+// }
+// void main(){
+//   List<int> numbers = [1,2,3,5,4];
+//   int sum =0;
+//   for(var number in numbers){
+//     sum +=number;
+  
+//   }print(sum);
+// }
