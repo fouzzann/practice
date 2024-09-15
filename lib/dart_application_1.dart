@@ -158,3 +158,40 @@
   
 //   }print(sum);
 // }
+
+
+// 
+
+// class Map{
+// String? name ='' ;
+//  int? age =0;
+// dynamic setName(String name){
+
+//   this.name =name;
+// }
+
+// dynamic setAge(int age){
+
+//   this.age =5;
+// }
+
+// dynamic display(){
+//   print('$name $age');
+// }
+
+// }
+// void main(){
+// var map = Map()
+// ..setName('fouzan')
+// ..setAge(2)
+// ..display();
+// }
+
+
+// Ternery operator
+
+// void main(){
+// int age =14;
+// String result = age >= 18? 'adult': 'not adult';
+// print(result);
+// }
