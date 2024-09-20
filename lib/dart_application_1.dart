@@ -195,3 +195,38 @@
 // String result = age >= 18? 'adult': 'not adult';
 // print(result);
 // }
+
+
+
+
+
+
+
+
+// void main(){
+//   String name = 'fouzan';
+//   name.rev
+// }
+
+// void main(){
+//   List<int> numbers =[1,2,3,4,5];
+//   numbers.insert(3, 9);
+//   print(numbers);
+// }
+
+// frequency of array 
+
+void main(){
+  List<int> numbers =[3,3,3,5,6,7,7,8,8];
+  Map<int,dynamic> map = {};
+  for(var number in numbers){
+
+    if(map.containsKey(number)){
+      map[number] = map[number] +1;
+
+    }else{
+      map[number] =1;
+    }
+  }
+  print(map);
+}
