@@ -8,7 +8,6 @@
 // }
 
 
-
 // optional parameter 
 
 // void optionalParameter( String name, [int? age] ){
@@ -39,7 +38,6 @@
 
 
 
-
 // requred parameter
 
 // void requiredParameter({required String name, int? age }){
@@ -51,7 +49,7 @@
 //   requiredParameter(); 
 // }
 
-
+    
 
 // while loop 
 
@@ -62,6 +60,8 @@
 //     i++;
 //   }
 // }
+
+
 
 
 
@@ -87,6 +87,8 @@
 // }
 
 
+
+
 // forEach
 
 // void main(){
@@ -103,6 +105,7 @@
 //   String trimmedText = text.trim();
 //   print(trimmedText);
 // }
+
 
 
 // void main(){
@@ -134,6 +137,10 @@
 //   print(names['age']);
 // }
 
+
+
+
+
 // void main(){
 //   int i=10;
 //   bool increment = true;
@@ -141,6 +148,10 @@
 //   i = increment? i+1:i;
 //   print(i);
 // }
+
+
+// spread 
+
 // void main(){
 //   List<int> numbers1  =[1,2,3,4,5];
 //   List<int> numbers2 =[6,7,8,9,10];
@@ -150,6 +161,9 @@
 
 //   print(compainedLsit);
 // }
+
+
+
 // void main(){
 //   List<int> numbers = [1,2,3,5,4];
 //   int sum =0;
@@ -188,6 +202,9 @@
 // }
 
 
+
+
+
 // Ternery operator
 
 // void main(){
@@ -195,10 +212,6 @@
 // String result = age >= 18? 'adult': 'not adult';
 // print(result);
 // }
-
-
-
-
 
 
 
@@ -216,17 +229,34 @@
 
 // frequency of array 
 
-void main(){
-  List<int> numbers =[3,3,3,5,6,7,7,8,8];
-  Map<int,dynamic> map = {};
-  for(var number in numbers){
+// void main(){
+// List<int> numbers = [1,3,4,4,5,5,6,7];
+// Map<int,dynamic> map ={};
+// for(var number in numbers){
+//   if(map.containsKey(number)){
+//     map[number] = map[number]+1;
+//   }else{
+//     map[number]= 1;
+//   }
+ 
+// }
+//  print(map);
+// }
 
-    if(map.containsKey(number)){
-      map[number] = map[number] +1;
 
-    }else{
-      map[number] =1;
-    }
-  }
-  print(map);
-}
+// void main() {
+//   String text = "madam";
+  
+//   if (text == text.split('').reversed.join('')) {
+//     print("$text is a palindrome.");
+//   } else {
+//     print("$text is not a palindrome.");
+//   }
+// }
+
+
+
+
+
+
+
